@@ -4,19 +4,24 @@
     height: 37vw;
 } 
 
+.parts{
+    background: rgb(98,55,125);
+    background: radial-gradient(to left, rgba(98,55,125,1) 0%, rgba(68,109,157,1) 100%);
+}
 
 
 #r1{
-    background:lightblue;
+    
+    background: linear-gradient(90deg, rgba(69,18,125,1), rgba(32,95,158,1), rgba(0,160,186,1));
     width: 12.5vw;
     height: 6.25vw;
     position: relative;
     left:43.75%;
     top:18.75%;
-    box-shadow:0px 18.75vw 0px 0px lightblue;
 }
+
 #r2{
-    background:lightgreen;
+    background:#00a0ba;
     width: 6.25vw;
     height: 25vw;
     border-radius: 0 2vw 2vw 0;
@@ -25,7 +30,7 @@
     top:0%;
 }
 #r3{
-    background:lightcoral;
+    background: #45127d;
     width: 6.25vw;
     height: 12.5vw;
     position: relative;
@@ -34,11 +39,21 @@
     border-radius:  3vw 0vw 6.25vw 6.25vw;
 }
 #r4{
-    background: limegreen;
+    background: #45127d;
     width: 6.25vw;
     height: 6.25vw;
     position: relative;
     left:0%;
     top:18.75vw;
     border-radius: 6.25vw 0vw 0vw 6.25vw;
+}
+
+#r0{
+    
+    background: linear-gradient(90deg, rgba(69,18,125,1), rgba(32,95,158,1), rgba(0,160,186,1));
+    width: 12.5vw;
+    height: 6.25vw;
+    position: relative;
+    left:6.25vw;
+    top:0%;
 }

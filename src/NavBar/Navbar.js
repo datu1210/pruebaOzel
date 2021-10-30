@@ -1,20 +1,17 @@
-import React from 'react'
-import {NavLink} from 'react-router-dom'
+import React from "react";
+import { NavLink } from "react-router-dom";
 
-import './Navbar.css'
+import "./Navbar.css";
 
 const Navbar = () => {
-    return (
-        <div>
-            <nav>
-                <h1>Logo Ozel</h1>
-                <div> 
-                    <NavLink activeClassName="active" to ="/figura1">Figura 1</NavLink>
-                    <NavLink activeClassName="active" to ="/figura2">Figura 2</NavLink>
-                </div>
-            </nav>  
-        </div>
-    )
-}
+  return (
 
-export default Navbar
+        <nav className="topnav">
+            <NavLink to="/figura1">Figura 1</NavLink>
+            <NavLink to="/figura2">Figura 2</NavLink>
+        </nav>
+  
+  );
+};
+
+export default Navbar;

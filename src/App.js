@@ -8,7 +8,6 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <hr/>
       <Switch>
         <Route exact path="/figura1">
           <Figura1/>
