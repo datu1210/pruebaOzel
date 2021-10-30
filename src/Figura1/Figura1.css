@@ -1,0 +1,44 @@
+.container{
+    position: absolute;
+    width: 100vw;
+    height: 37vw;
+} 
+
+
+
+#r1{
+    background:lightblue;
+    width: 12.5vw;
+    height: 6.25vw;
+    position: relative;
+    left:43.75%;
+    top:18.75%;
+    box-shadow:0px 18.75vw 0px 0px lightblue;
+}
+#r2{
+    background:lightgreen;
+    width: 6.25vw;
+    height: 25vw;
+    border-radius: 0 2vw 2vw 0;
+    position: relative;
+    left:100%;
+    top:0%;
+}
+#r3{
+    background:lightcoral;
+    width: 6.25vw;
+    height: 12.5vw;
+    position: relative;
+    left:-300%;
+    bottom:0%;
+    border-radius:  3vw 0vw 6.25vw 6.25vw;
+}
+#r4{
+    background: limegreen;
+    width: 6.25vw;
+    height: 6.25vw;
+    position: relative;
+    left:0%;
+    top:18.75vw;
+    border-radius: 6.25vw 0vw 0vw 6.25vw;
+}
