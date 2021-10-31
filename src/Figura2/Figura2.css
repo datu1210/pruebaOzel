@@ -1,0 +1,57 @@
+.container{
+    position: absolute;
+    width: 99vw;
+    height: 37vw;
+} 
+
+#circulo{
+    background: linear-gradient(to right, rgba(108,170,190,1), rgba(13,123,158,1), rgba(0,45,60,1));
+    width: 30vw;
+    height: 30vw;
+    position: relative;
+    left:35%;
+    top:15%;
+    border-radius: 30vw;
+}
+
+#centro{
+    background:white;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    left:16.66%;
+    top:16.66%;
+    border-radius: 20vw;
+}
+
+#hueco{
+    width:15vw;
+    height:15vw;
+    background: white;
+    transform:rotate(-75deg);
+    position:relative;
+    top:30%;
+    left:-55%;
+  }
+
+  #ends{
+    width:5vw;
+    height:5vw;
+    background:linear-gradient(to left, rgba(108,170,190,1), rgba(13,123,158,1));
+    position:relative;
+    top: 31%;;
+    left:83%;
+    border: 0px solid rgb(131, 41, 41);
+    border-radius: 10vh;
+  }
+
+  #ends2{
+    width:5.1vw;
+    height:5.1vw;
+    background:linear-gradient(to left, rgba(108,170,190,1), rgba(13,123,158,1));
+    position:relative;
+    top:45%;
+    left:1%;
+    border: 0px solid rgb(131, 41, 41);
+    border-radius: 20vh;
+  }
